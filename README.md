@@ -22,7 +22,16 @@ An Arduino-based home automation system designed to control home appliances usin
 - Switches
 - Jumper Wires
 - Breadboard
+## Arduino Pin Connections
 
+| Component | Arduino Pin |
+|---|---|
+| LDR Sensor | A0 |
+| Light | D8 |
+| Fan | D9 |
+| Servo Motor | D10 |
+| Door Switch | D6 |
+| Fan Switch | D7 |
 ## Working
 
 The LDR sensor detects the surrounding light intensity. When the environment becomes dark, the light is automatically turned ON.
@@ -53,6 +62,6 @@ Arduino Uno acts as the main controller and manages all the connected components
 - Add mobile application control
 - Add IoT-based monitoring
 
-## Author
 
-Muskan Nishad
+
+
